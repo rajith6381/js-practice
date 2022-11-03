@@ -6,21 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<button onclick="myfun()">click +</button>
+<button onclick="myfun2()">click -</button>
 <p id="demo"></p>
 <body>
     <script>
-        var amount=parseInt(prompt("enter your amount"));
+        // var amount=parseInt(prompt("enter your amount"));
 
-        switch(amount){
-            case 10000:
-                document.write("you bey a iphone");
-                  break;
-            case 5000:
-                document.write("you bey a vivo phone");
-                break;
-             default:
-                    document.write("no phones");
-                    }
+        // switch(amount){
+        //     case 10000:
+        //         document.write("you bey a iphone");
+        //           break;
+        //     case 5000:
+        //         document.write("you bey a vivo phone");
+        //         break;
+        //      default:
+        //             document.write("no phones");
+        //             }
+
+     function myfun(){
+        for(i=1;i<=10;i++){
+
+             document.write(i);
+
+         document.getElementById('demo').innerHTML=(i);
+     }
+    }
+    
+
 
                     
     </script>
