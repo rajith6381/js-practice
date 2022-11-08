@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px #000;
+    vertical-align: center;
+    align-items: center;
+    margin-top:30px;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color:rgb(31, 76, 223);
+
+}
+#count{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    color:rgb(31, 76, 223);;
+    position: relative;
+}
+button{
+   width: 40px;
+   height: 40px;
+   position:absolute;
+   border-radius: 50%;
+   border: #fff;
+   font-size: 2rem;
+}
+#plus{
+   margin-right:-15%;
+   
+}
+#minus{
+    margin-left: -15%;
+}
+
