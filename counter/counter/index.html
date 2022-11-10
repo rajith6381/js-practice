@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>count</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <h1>COUNDING</h1>
+        <P id="count"></P>
+        <button id="minus"><i class="bi bi-dash"></i></button>
+        <button id="plus"><i class="bi bi-plus"></i></button>
+    </div>
+    <script>
+const count=document.getElementById('count');
+const pluss=document.getElementById('plus');
+const decr=document.getElementById('minus');
+
+
+ counter = 0;
+pluss.addEventListener("click",add);
+function add(){
+    counter++;  
+count.innerHTML = counter;
+   return counter;
+}
+
+
+decr.addEventListener("click",dec);
+function dec(){
+   counter--;  
+count.innerHTML = counter;
+   return counter;
+}
+
+
+    </script>
+</body>
+</html>
