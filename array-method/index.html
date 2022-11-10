@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+          <th>S.No</th><th>Methods</th><th>In Array</th><th>Uses</th><th>Output</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>push</td>
+          <td>array_1=['fruits','water']<br><br>
+            array_1.push(7,8)</td>
+          <td>Adding Element at the end of an Array</td>
+          <td> array_1=['fruits','water',7,8]</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>unshift</td>
+          <td>array_1=['fruits','water','vegetables'] <br><br>
+            array_1.unshift('biscuts');
+          </td>
+          <td>Adding elements at the front of an Array </td>
+          <td>array_1=['buiscuts','fruits','water','vegetables']</td>
+        </tr>
+        <tr>
+           <td>3</td>
+           <td>pop</td>
+           <td>array_1=['buiscuts','fruits','water','vegetables'] <br><br>
+               array_1.pop();
+          </td>
+           <td>Removing elements from the end of an array </td>
+           <td>array_1=['buiscuts','fruits','water']</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>shift</td>
+          <td>array_1=['buiscuts','fruits','water','vegetables'] <br><br> array_methods.shift();</td>
+          <td>Removing elements at the beginning of an array </td>
+          <td>array_1=['fruits','water','vegetables']</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>splice</td>
+          <td>array_1=['fruits','water','vegetables'] <br><br>
+             array_methods.splice(1,1,'iam','deleted')</td>
+          <td>adding and deleting in b/w any elements.</td>
+          <td>array_1=['fruits','water','iam','added']</td>
+        </tr>
+        <tr>
+           <td>6</td>
+           <td>sort</td>
+           <td>array2=['rajith','sejore','yamin','surya','anish','rathish'] <br><br>
+                array2.sort(); </td>
+           <td>Sorting alphabetically works  for string not numbers</td>
+           <td>array2=['rajith','sejore','yamin','surya','anish','rathish']</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>reverse</td>
+          <td>array2=['rajith','sejore','yamin','surya','anish','rathish'] <br><br>
+             array2.reverse();</td>
+          <td>reverse the elements</td>
+          <td>array2=['rathish','anish','surya','yamin','sejore','rajith']</td>
+        </tr>
+        <tr>
+           <td>8</td>
+           <td>join</td>
+           <td> box=['one','two','three','four','five']; <br><br>
+                 box.join("*");</td>
+           <td>joining the strings with characters </td>
+           <td>one*two*three*four*five</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>toString</td>
+          <td>box=['one','two','three','four','five']; <br><br>box.toString();</td>
+          <td>toString method defaulty joins string with comma operator</td>
+          <td>box=one,two,three,four,five</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>slice</td>
+          <td>box=['one','two','three','four','five']; <br><br>
+              home.slice(0,2);</td>
+          <td>slice -Extracting a Portion of an Array-slice(startIndex, endIndex);</td>
+          <td>box=['three','four','five']</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>concat</td>
+          <td>var wilds = ["Tiger", "Wolf", "Zebra"];
+            var bugs = ["Ant", "Bee"]; <br><br>
+            var animals=wilds.concat(bugs);
+             </td>
+          <td> concat -Merging Two or More Arrays</td>
+          <td>animals=["Tiger", "Wolf", "Zebra","Ant", "Bee"]</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>indexOf</td>
+          <td>animals=["Tiger", "Wolf", "Zebra","Ant", "Bee"]; <br><br>
+            animals.indexOf('Ant')</td>
+          <td>finding the index of a elements</td>
+          <td>animals[3]:Ant</td>
+        </tr>
+         <tr>
+          <td>13</td>
+          <td>delete</td>
+          <td>const fruits = ["Banana", "Orange", "Apple", "Mango"];
+            delete fruits[2];
+          </td>
+          <td>delete the array elements by index value</td>
+          <td>fruits = ["Banana", "Orange", "Mango"];</td>
+         </tr>
+         <tr>
+           <td>14</td>
+           <td>foreach</td>
+           <td>var arr=["Bilbo", "Gandalf", "Nazgul"].forEach(alert); <br><br>
+                arr.forEach(function(item, index, array){
+                  <!-- cannot return the value -->
+                } </td>
+           <td>foreach iterate array values without forloops</td>
+           <td>var arr=["Bilbo", "Gandalf", "Nazgul"]</td>
+         </tr>
+         <tr>
+          <td>15</td>
+          <td>find</td>
+          <td>let users = [
+            {id: 1, name: "John"},
+            {id: 2, name: "Pete"},
+            {id: 3, name: "Mary"}
+          ];
+          <br><br>
+          let user = users.find(item => item.id == 1);</td>
+          <td></td>
+          <td></td>
+         </tr>
+         <tr>
+           <td>16</td>
+           <td>filter</td>
+           <td>const ages = [32, 33, 16, 40]; <br><br>
+              const result = ages.filter(checkAdult);
+            function checkAdult(age) {
+              return age >= 18;
+            }</td>
+           <td>The filter() method creates a new array filled with elements that pass a test provided by a function.</td>
+           <td>o/p:32,33,40</td>
+         </tr>
+         <tr>
+           <td>17</td>
+           <td>map</td>
+           <td>const numbers = [65, 44, 12, 4];
+            const newArr = numbers.map(myFunction);
+            function myFunction(num) {
+            return num * 10;
+          }</td>
+           <td>map fill </td>
+           <td></td>
+         </tr>
+      </table>
+</body>
+</html>
