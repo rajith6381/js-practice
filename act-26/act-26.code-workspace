@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../fabevy-practice/mamba"
+		},
+		{
+			"path": "../../fabevy-practice/bootstrap-web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "act-26"
+	}
+}
