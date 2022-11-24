@@ -8,84 +8,84 @@
 </head>
 <body>
     <script>
-        var a=4;
-        var b=5;
-        c=a+b;
-        console.log(c);
+    //     var a=4;
+    //     var b=5;
+    //     c=a+b;
+    //     console.log(c);
         
         
-        var a=4;
-        var b=5;
-        c=a-b;
-        console.log(c);
+    //     var a=4;
+    //     var b=5;
+    //     c=a-b;
+    //     console.log(c);
 
 
-        var a=4;
-        var b=5;
-        c=a*b;
-        console.log(c);
+    //     var a=4;
+    //     var b=5;
+    //     c=a*b;
+    //     console.log(c);
 
 
 
-        var a=4;
-        var b=5;
-        c=a/b;
-        console.log(c);
+    //     var a=4;
+    //     var b=5;
+    //     c=a/b;
+    //     console.log(c);
 
 
-        var a=4;
-        var b=5;
-        c=a%b;
-        console.log(c);
+    //     var a=4;
+    //     var b=5;
+    //     c=a%b;
+    //     console.log(c);
 
 
-        if(a<b){
-         console.log('yes');
-        }else{
-            console.log('no');
-        }
+    //     if(a<b){
+    //      console.log('yes');
+    //     }else{
+    //         console.log('no');
+    //     }
 
        
         
-        if(a>b==a<b){
-         console.log('yes');
-        }else{
-            console.log('no');
-        }
+    //     if(a>b==a<b){
+    //      console.log('yes');
+    //     }else{
+    //         console.log('no');
+    //     }
 
-        if(a>b&&a<b){
-         console.log('yes');
-        }else{
-            console.log('no');
-        }
+    //     if(a>b&&a<b){
+    //      console.log('yes');
+    //     }else{
+    //         console.log('no');
+    //     }
       
 
-        if(a>b||a<b){
-         console.log('yes');
-        }else{
-            console.log('no');
-        }
+    //     if(a>b||a<b){
+    //      console.log('yes');
+    //     }else{
+    //         console.log('no');
+    //     }
 
 
-       var c="5";
-       var d=5;
+    //    var c="5";
+    //    var d=5;
         
-        if(c===d){
-         console.log('yes');
-        }else{
-            console.log('no');
-        }
+    //     if(c===d){
+    //      console.log('yes');
+    //     }else{
+    //         console.log('no');
+    //     }
 
         
 
-        var z=7;
-        var t=7;
+    //     var z=7;
+    //     var t=7;
 
-        if(z===t){
-         console.log('yes');
-        }else{
-            console.log('no');
-        }
+    //     if(z===t){
+    //      console.log('yes');
+    //     }else{
+    //         console.log('no');
+    //     }
 
 
 
@@ -99,45 +99,146 @@
 
 
 
-    //     var a=prompt('first');
-    //     var b=prompt('second');
-    //     var c=prompt('third');
+//         var a=prompt('first');
+//         var b=prompt('second');
+//         var c=prompt('third');
+//         var d=prompt('forth')
+//         if(a>b){
+//             if(a>c){
 
-    //     if(a>b){
-    //         if(a>c){
-    //             console.log('1st');
-    //         }else{
-    //             console.log('3ed');
-    //         }
-    //     }
-    //     else{
-    //             if(b>c){
-    //          console.log("2ed");
-    //     }
-    //     else{
-    //         console.log("3ed");
-    //     }
-    // }
+//             if(a>d){
+//                 console.log("first");
+//             }else if(c>d){
+//                 console.log('3ed');
+//             }else{
+//                 console.log("forth");
+//             }
+//         }   
+//         }
+//         else{
+//           if(b>c){
+//              console.log("2ed");
+//          if(b>d){
+//               console.log("2ed");
+//         }
+//     else{
+//               console.log("forth");
+//         }
+//     }
+//         else{
+//             console.log("forth");
+//         }
+//     }
 
 
     
 
-   var c=prompt('enter number');
+//    var c=prompt('enter number');
 
-   for(i=0;i<c;i++){
-         for(j=0;j>i;i++){
-         console.log(j)
-         }
-      console.log("<br>");
-   }
-
-
+//    for(i=1;i<=c;i++){
+//          for(j=1;j<=i;j++){
+//          document.write(i)
+//          }
+//       document.write("<br>");
+//    }
 
 
+// for(i=1;i<=c;i++){
+//          for(j=1;j<=c;j++){
+//          document.write(i)
+//          }
+//       document.write("<br>");
+//    }
 
 
+
+   var arr=[1,2,3,4,"5",6,7]
+   var len=arr.length;
+
+   console.log(arr);
+   console.log(len);
+
+   var ret=arr.push(8,9,10,11);
+
+    len=ret
+  
+    console.log(arr);
+   console.log(len);
+   var ret=arr.push(8,9,10,11,"rajith");
+
+len=ret
+
+console.log(arr);
+console.log(len);
+
+
+   let p=arr.shift();
+    
+   console.log(arr)
+   console.log(p);
+
+
+
+   let d=arr.unshift();
+    
+   console.log(arr)
+   console.log(d);
+   let as=arr.splice();
+    
+   console.log(arr)
+   console.log(as);
+
+
+   
+   let sli=arr.slice(1,4);//cut and orginal array no change
+   var l=[]
+   console.log(arr)
+   console.log(sli);
+    l=sli
+    console.log(l);
+   
+
+    let er=arr.reverse();
+    
+    console.log(arr)
+    console.log(er);
+
+
+    
+    let re=arr.indexOf(4);//find a index and from start a finding
+    
+    console.log(arr);
+    console.log(re);
+ 
+       
+    let last=arr.lastIndexOf(5);
+    
+    console.log(arr)
+    console.log(last); 
 
         
+    let to=arr.toString();
+    
+    console.log(arr)
+    console.log(to);
+    console.log(typeof(to)); 
+
+
+    var so=[1,20,12,110];
+
+           
+    let t=so.sort();
+    
+    console.log(so)
+    console.log(t);
+    console.log(typeof(to)); 
+
+
+
+    var a=arr.length
+
+    arr.lenth=6
+    console.log(arr);
 
     </script>
 </body>
