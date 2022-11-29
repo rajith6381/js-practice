@@ -152,93 +152,226 @@
 
 
 
-   var arr=[1,2,3,4,"5",6,7]
-   var len=arr.length;
+//    var arr=[1,2,3,4,"5",6,7]
+//    var len=arr.length;
 
-   console.log(arr);
-   console.log(len);
+//    console.log(arr);
+//    console.log(len);
 
-   var ret=arr.push(8,9,10,11);
+//    var ret=arr.push(8,9,10,11);
 
-    len=ret
+//     len=ret
   
-    console.log(arr);
-   console.log(len);
-   var ret=arr.push(8,9,10,11,"rajith");
+//     console.log(arr);
+//    console.log(len);
+//    var ret=arr.push(8,9,10,11,"rajith");
 
-len=ret
+// len=ret
 
-console.log(arr);
-console.log(len);
+// console.log(arr);
+// console.log(len);
 
 
-   let p=arr.shift();
+//    let p=arr.shift();
     
-   console.log(arr)
-   console.log(p);
+//    console.log(arr)
+//    console.log(p);
 
 
 
-   let d=arr.unshift();
+//    let d=arr.unshift();
     
-   console.log(arr)
-   console.log(d);
-   let as=arr.splice();
+//    console.log(arr)
+//    console.log(d);
+//    let as=arr.splice();
     
-   console.log(arr)
-   console.log(as);
+//    console.log(arr)
+//    console.log(as);
 
 
    
-   let sli=arr.slice(1,4);//cut and orginal array no change
-   var l=[]
-   console.log(arr)
-   console.log(sli);
-    l=sli
-    console.log(l);
+//    let sli=arr.slice(1,4);//cut and orginal array no change
+//    var l=[]
+//    console.log(arr)
+//    console.log(sli);
+//     l=sli
+//     console.log(l);
    
 
-    let er=arr.reverse();
+//     let er=arr.reverse();
     
-    console.log(arr)
-    console.log(er);
+//     console.log(arr)
+//     console.log(er);
 
 
     
-    let re=arr.indexOf(4);//find a index and from start a finding
+//     let re=arr.indexOf(4);//find a index and from start a finding
     
-    console.log(arr);
-    console.log(re);
+//     console.log(arr);
+//     console.log(re);
  
        
-    let last=arr.lastIndexOf(5);
+//     let last=arr.lastIndexOf(5);
     
-    console.log(arr)
-    console.log(last); 
+//     console.log(arr)
+//     console.log(last); 
 
         
-    let to=arr.toString();
+//     let to=arr.toString();
     
-    console.log(arr)
-    console.log(to);
-    console.log(typeof(to)); 
+//     console.log(arr)
+//     console.log(to);
+//     console.log(typeof(to)); 
 
 
-    var so=[1,20,12,110];
+//     var so=[1,20,12,110];
 
            
-    let t=so.sort();
+//     let t=so.sort();
     
-    console.log(so)
-    console.log(t);
-    console.log(typeof(to)); 
+//     console.log(so)
+//     console.log(t);
+//     console.log(typeof(to)); 
 
 
 
-    var a=arr.length
+//     var a=arr.length
 
-    arr.lenth=6
-    console.log(arr);
+//     arr.lenth=6
+//     console.log(arr);
+
+
+
+  //   let a=10;
+  //   let b=13;
+  //   let c=24;
+  //   let l=14;
+
+
+  //   function add(x,y){
+  //       var adi=x+y
+  //       var sub=x-y
+  //       var mul=x*y
+  //       var re=x%y
+  //       var div=x/y
+
+  //       var array=[div]
+  //       return array;
+  //   }
+   
+
+  //  console.log( add(300,400));
+
+
+
+  // var arr=[ 30,40,1,2,3,4,5,6,5,7,8,24,13]
+
+  // var out=[]
+
+  //    for(i=0;i<arr.length;i++){
+  //      out[i]=arr[i] 
+  //    }
+  //    console.log(out);
+  //   var add=0;
+  //   for(i=0;i<arr.length;i++){
+  //     out[add]=arr[i]
+  //     add++
+  //     }
+      
+  //     console.log(out);
+
+        
+    //   arr.forEach((e=>{
+    //     e.forEach((l=>{
+    //     }))
+    //   }))
+
+      // function rome(value){
+      //      let s=value.split('').reverse().join("");
+      //      if(s===re){
+      //       console.log("true");
+      //      }else{
+      //       console.log("false");
+      //      }
+
+      // }
+      // let name=prompt("enter");
+      // rome(name);
+
+
+    //  let main=[];
+    
+    //   let input=prompt("main  lenth");
+    //     for(i=0;i<input;i++){
+    //       let sub=[];
+    //       var s=prompt('sub lenth')
+    //       if(s==0){
+    //           sub= parseInt( prompt('enter') ); 
+    //           }else{
+    //             for(j=0;j<s;j++){
+           
+    //        sub[j]=prompt("value");
+          
+    //     }
+    //           }
+         
+    //       main[i]=sub
+    //     }
+       
+        // console.log(input);
+       
+        function name(param) {
+          sub=[]
+          for(j=0;j<param;j++){
+           sub[j]=prompt("value");
+                     }
+                     return sub
+        }
+          var main=[]
+          var input=prompt("main  lenth");
+          var sub;
+          for(i=0;i<input;i++){
+          var s=prompt('sub lenth')
+          var x=name(s)
+          main[i]=x
+       
+        }
+        greed(main)
+        
+        function greed(e){
+        var f=prompt("index")
+
+        var f2=prompt("second index")
+
+         var val=e[f][f2]
+         return val;
+        }
+       
+      console.log(val);
+
+        
+
+       //[[],[],[]]
+
+
+
+      // let a=prompt('leanth');
+      // te=[]
+      // out=
+      // for(i=0;i<a;i++){
+      //   var p=prompt("value")
+      //      for(j=0;j<a;j++){
+          
+      //      }
+      // }
+      // console.log(te);
+
+
+    
+    
+
+
+
 
     </script>
 </body>
