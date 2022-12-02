@@ -1,0 +1,21 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container1{
+    width:30%;
+    margin: auto;
+}
+.hole{
+    box-shadow: 0px,0px,10px,#000;
+    border-radius: 24px;
+}
+.count{
+    background-image: linear-gradient(rgb(39, 203, 211), rgb(229, 241, 241));
+}
+.num4{
+    color: blue;
+    cursor: pointer;
+}
+
