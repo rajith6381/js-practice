@@ -11,8 +11,22 @@ function clearAll(){
     currentValue.innerHTML=0;
 }
 
-
-function clear(){
-    currentValue.innerHTML=-1
+function Equalto(){
+    try{
+        currentValue.innerHTML=eval(currentValue.innerHTML);
+    }
+    catch(err){
+        alert("Ivalid")
+    }
 }
+// function clear(){
+//     currentValue.innerHTML=currentValue.value.slice(0,-1);
+// }
 
+
+
+
+// function Equalto(){
+     
+//     eval(currentValue);
+// }
