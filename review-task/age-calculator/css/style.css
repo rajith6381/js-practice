@@ -1,0 +1,14 @@
+.container{
+    width:60%;
+    margin: auto;
+    background-image: linear-gradient(rgb(24, 186, 205),white);
+
+    margin-top: 10%;
+}
+.hole{
+    text-align: center;
+    padding-bottom: 30px;
+}
+p{
+    text-align: center;
+}
